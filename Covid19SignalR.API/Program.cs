@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddScoped<CovidService>();// kullanmak istediðim yerde constructor içerisinde parametre olarak verdiðimde bana nesne örneði verecek
+
 builder.Services.AddControllers();
 builder.Services.AddSignalR();
 

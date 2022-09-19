@@ -19,8 +19,8 @@ namespace Covid19SignalR.API.Controllers
         public async Task<IActionResult> SaveCovid(Covid covid)
         {
             await _covidService.SaveCovid(covid);
-            IQueryable<Covid> covidList = _covidService.GetList();
-            return Ok(covidList);
+            //IQueryable<Covid> covidList = _covidService.GetList();
+            return Ok(_covidService.GetCovidChartList());
         }
 
         [HttpGet]

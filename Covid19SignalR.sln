@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19SignalR.API", "Covid19SignalR.API\Covid19SignalR.API.csproj", "{C693DBAD-645F-4EBE-9D99-6B85CBAAE9DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covid19SignalR.API", "Covid19SignalR.API\Covid19SignalR.API.csproj", "{C693DBAD-645F-4EBE-9D99-6B85CBAAE9DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19SignalR.Client", "Covid19SignalR.Client\Covid19SignalR.Client.csproj", "{CA8613A4-D4B8-4CDE-9CC0-0B3ECF5928A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C693DBAD-645F-4EBE-9D99-6B85CBAAE9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C693DBAD-645F-4EBE-9D99-6B85CBAAE9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C693DBAD-645F-4EBE-9D99-6B85CBAAE9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8613A4-D4B8-4CDE-9CC0-0B3ECF5928A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8613A4-D4B8-4CDE-9CC0-0B3ECF5928A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8613A4-D4B8-4CDE-9CC0-0B3ECF5928A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8613A4-D4B8-4CDE-9CC0-0B3ECF5928A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
